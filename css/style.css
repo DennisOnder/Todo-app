@@ -9,10 +9,19 @@ body {
     padding: 1em;
 }
 
+#inputField:focus {
+    border-color: #666;
+    box-shadow: inset 0 1px 1px rgba(173, 173, 173, 0.075), 0 0 8px rgba(145, 145, 145, 0.76);
+}
+
 .form {
     display: block;
     margin: auto;
     width: 80vw;
+}
+
+#todos {
+    margin-top: 25px;
 }
 
 .well {
@@ -32,4 +41,3 @@ body {
     text-decoration-line: line-through;
     border: 1px solid #222;
 }
-

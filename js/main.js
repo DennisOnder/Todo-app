@@ -10,13 +10,16 @@ deleteButton();
 // Take input and submit it as a new todo
 inputButton.addEventListener('click', function () {
     var inputValue = input.value;
-    placeForTodos.innerHTML += '<div class="todo">' +
+    placeForTodos.innerHTML += 
+        '<div class="todo">' +
         '<div class="well">' +
         '<h3 class="todo-text">' + inputValue + '</h3>' +
         '<input type="button" class="btn btn-outline-light delBtn" value="Delete">' +
         '<input type="button" class="btn btn-outline-light completeBtn" value="Complete">' +
         '</div>' +
         '</div>';
+        completeButton();
+        deleteButton();
 });
 
 // Add event listener to existing buttons, delete and complete todos
@@ -28,7 +31,6 @@ function completeButton() {
         });
     }
 }
-
 function deleteButton() {
     var deleteButtons = document.getElementsByClassName('delBtn');
     for (var i = 0; i < deleteButtons.length; i++) {
