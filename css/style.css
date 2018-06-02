@@ -1,0 +1,35 @@
+body {
+    background: #333 !important;
+    margin: 0;
+    padding: 0;
+    color: #fff !important;
+}
+
+#showcase h1 {
+    padding: 1em;
+}
+
+.form {
+    display: block;
+    margin: auto;
+    width: 80vw;
+}
+
+.well {
+    padding: 2em;
+    border: 1px solid #333;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    box-shadow: 20px 10px 21px 2px rgba(26,26,26,1);
+    background: #666;
+}
+
+.well-complete {
+    transition: .3s;
+    background: #222;
+    text-decoration-line: line-through;
+    border: 1px solid #222;
+}
+
