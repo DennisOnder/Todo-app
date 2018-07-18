@@ -1,4 +1,7 @@
 # Todo-app
-A simple todo app made with nothing more than vanilla JS.
 
-Disclaimer: This app does NOT have local storage implemented.
+### A simple Todo Application made in JavaScript ###
+
+```
+This application has LocalStorage implemented, so the data will persist in your browser's memory.
+``` 
